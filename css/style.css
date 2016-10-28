@@ -1,0 +1,147 @@
+*{
+    font-family: 'Proza Libre', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #fff !important;
+}
+nav ul li a{
+    color:black;
+}
+.container{
+    width: 85% !important;   
+}
+.marginBottom{
+    margin-bottom: 2%;
+}
+.navContainer{
+    width: 85%;
+    margin: 0 auto;  
+}
+
+.justify{
+    text-align: justify;
+}
+
+.paddingTop{
+    padding-top: 8%;
+}
+
+.paddingBottom{
+    padding-bottom: 8%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+
+/*--------------------------------------*/
+/*            SOBRE NOSOTROS           */
+/*------------------------------------*/
+#sobreNosotros{
+    margin-top: 2%;    
+    padding-bottom: 4%;
+}
+
+#sobreNosotros p,#sobreNosotros h5{
+    margin-top: 8%;
+}
+
+
+/*--------------------------------*/
+/*          SERVICIOS            */
+/*------------------------------*/
+
+#servicios{
+    background-color: khaki;
+}
+
+
+.cardColor{
+    background-color: wheat;
+}
+
+
+.card img{    
+    height: 280px;
+}
+
+.card a{
+    color: #afb42b;
+}
+
+/*--------------------------------*/
+/*        NUESTRO EQUIPO         */
+/*------------------------------*/
+#equipo .card p,#equipo .card span{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------*/
+/*      RESPONSIVESLIDE      */
+/*--------------------------*/
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 590px;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
