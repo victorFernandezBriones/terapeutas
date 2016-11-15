@@ -2,6 +2,8 @@ $(document).ready(function () {
 
 
     $(".button-collapse").sideNav();
+    $('.carousel.carousel-slider').carousel({full_width: true,time_constant:10,indicators:true});
+
 
     $(".rslides").responsiveSlides({
         auto: true, // Boolean: Animate automatically, true or false
@@ -41,7 +43,8 @@ $(document).ready(function () {
     });
 
     $('.parallax').parallax();
-     $('.slider').slider({full_width: true});
+    $('.slider').slider({full_width: true});
+
 
 
 });
